@@ -8,7 +8,6 @@ export default function HomeSection() {
     >
       <div className="absolute inset-0 bg-[#1a0f0a] opacity-60 z-0"></div>
       <div className="relative z-10 flex flex-col md:flex-row items-center justify-center min-h-screen text-center px-4 md:px-20">
-        {/* Left Side: Text Content */}
         <div className="flex-1 md:text-left text-white/90 p-4 md:pr-12">
           <h1 className="text-5xl md:text-7xl font-bold mb-4 font-serif leading-tight">
             Hi, I&apos;m Grace,
@@ -30,7 +29,7 @@ export default function HomeSection() {
             View Portfolio
           </a>
         </div>
-        {/* Right Side: Image with Blending */}
+
         <div className="flex-1 flex justify-center items-center mt-12 md:mt-0">
           <div className="relative w-80 h-[28rem] rounded-xl overflow-hidden border-4 border-[#e6cfa7] shadow-lg">
             <img
