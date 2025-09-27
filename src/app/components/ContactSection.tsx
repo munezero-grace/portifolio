@@ -6,15 +6,9 @@ export default function ContactSection() {
       id="contact"
       className="min-h-screen flex flex-col justify-center items-center bg-[#1a0f0a] text-[#f5e6d6] py-20 relative"
     >
-      <div className="absolute top-10 left-1/2 -translate-x-1/2 text-[6rem] font-extrabold text-[#e6cfa7] opacity-20 select-none pointer-events-none z-0">
-        contact
-      </div>
-      <div className="relative z-10 w-full max-w-5xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-center text-[#e6cfa7] mb-2 font-serif">
-          Get In Touch
-          <span className="block w-16 h-1 bg-[#e6cfa7] mx-auto mt-2 rounded"></span>
+      <h2 className="text-4xl uppercase tracking-widest text-[#e6cfa7] mb-10 font-serif font-bold ">
+          contact
         </h2>
-      </div>
       <form className="w-full max-w-md bg-[#231406] shadow-lg rounded-lg p-8 flex flex-col gap-4 border border-[#6d4c2c]">
         <input
           type="text"

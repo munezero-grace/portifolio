@@ -7,12 +7,10 @@ export default function AboutSection() {
       className="min-h-screen bg-[#1a0f0a] text-[#f5e6d6] flex flex-col items-center justify-center py-20 px-6"
     >
       <div className="max-w-6xl w-full flex flex-col items-center text-center">
-        <h2 className="text-lg uppercase tracking-widest text-[#e6cfa7] mb-2 font-serif">
-          | About Me |
+        <h2 className="text-4xl uppercase tracking-widest text-[#e6cfa7] mb-10 font-serif font-bold">
+          About Me
         </h2>
-        <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight font-serif">
-          I’m Grace, <br /> Full-Stack Developer
-        </h1>
+
         <p className="max-w-3xl text-lg mb-8 text-[#e6cfa7] leading-relaxed font-serif">
           I am Grace, a passionate and certified web developer. I specialize in
           building scalable, user-friendly applications with modern

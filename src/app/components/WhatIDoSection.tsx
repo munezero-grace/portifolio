@@ -4,11 +4,8 @@ export default function WhatIDoSection() {
   return (
     <section id="services" className="py-20 px-8 bg-[#1a0f0a] text-[#f5e6d6]">
       <div className="container mx-auto text-center">
-        <h2 className="text-4xl md:text-5xl font-bold mb-10 text-[#e6cfa7] font-serif inline-block relative">
+        <h2 className="text-4xl uppercase tracking-widest text-[#e6cfa7] mb-10 font-serif font-bold ">
           Services
-          <span className="bg-[#e6cfa7] text-[#1a0f0a] px-3 py-1 rounded ml-2 font-serif text-3xl align-middle">
-            .
-          </span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
           {/* Service Card 1 */}
