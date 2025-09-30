@@ -1,5 +1,17 @@
 "use client";
 
+const CardIcon = () => (
+  <svg
+    className="h-8 w-8 text-[#e6cfa7] mb-2"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+  >
+    <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth={2} />
+    <path stroke="currentColor" strokeWidth={2} d="M8 12h8" />
+  </svg>
+);
+
 export default function PortfolioSection() {
   return (
     <section
@@ -10,28 +22,26 @@ export default function PortfolioSection() {
         Portfolio
       </h2>
       <div className="flex flex-wrap gap-8 justify-center">
+        {/* Card 1 */}
         <div className="bg-[#231406] shadow-lg rounded-xl p-0 w-80 border border-[#6d4c2c] flex flex-col justify-between">
           <div>
             <div className="w-full h-64 rounded-t-xl overflow-hidden">
               <img
                 src="/ayayay.jpg"
-                alt="Smart Public Transport Scheduling Platform"
+                alt="Smart Transit Scheduler"
                 className="w-full h-full object-cover object-center"
               />
             </div>
             <div className="p-6">
-              <div className="text-3xl mb-2 font-serif">🚍</div>
+              <CardIcon />
               <div className="font-bold text-xl mb-2 text-[#e6cfa7] font-serif">
-                Smart Public Transport Scheduling Platform
+                Smart Transit Scheduler
               </div>
               <div className="text-[#c2a77c] mb-4 font-serif">
-                Designed and developed a platform to optimize Rwanda’s public
-                transit system by improving route scheduling and efficiency.
-                Focused on real-time data handling, user-centered design, and
-                scalability to make daily commuting smoother.
+                Built a platform to optimize public transit with real-time
+                scheduling, improving daily commuting efficiency.
               </div>
             </div>
-
             <div className="flex items-center justify-between px-6 py-3 border-t border-[#6d4c2c] bg-[#1a0f0a] text-sm">
               <a
                 href="https://example.com/transport"
@@ -39,7 +49,7 @@ export default function PortfolioSection() {
                 rel="noopener noreferrer"
                 className="text-green-600 hover:underline flex items-center gap-1"
               >
-                View Project
+                Explore Project &rarr;
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-4 w-4"
@@ -59,28 +69,26 @@ export default function PortfolioSection() {
           </div>
         </div>
 
+        {/* Card 2 */}
         <div className="bg-[#231406] shadow-lg rounded-xl p-0 w-80 border border-[#6d4c2c] flex flex-col justify-between">
           <div>
             <div className="w-full h-64 rounded-t-xl overflow-hidden">
               <img
                 src="/ready.jpg"
-                alt="Secure & Responsive Web Applications"
+                alt="Secure Web Apps"
                 className="w-full h-full object-cover object-center"
               />
             </div>
             <div className="p-6">
-              <div className="text-3xl mb-2 font-serif">🌐</div>
+              <CardIcon />
               <div className="font-bold text-xl mb-2 text-[#e6cfa7] font-serif">
-                Secure & Responsive Web Applications
+                Secure Web Apps
               </div>
               <div className="text-[#c2a77c] mb-4 font-serif">
-                Built multiple full-stack web applications using React, Node.js,
-                MongoDB, and PostgreSQL. Emphasis was placed on security,
-                performance optimization, and responsive design, ensuring
-                accessibility across devices.
+                Developed full-stack web apps with React and Node.js, ensuring
+                fast, secure access across devices.
               </div>
             </div>
-
             <div className="flex items-center justify-between px-6 py-3 border-t border-[#6d4c2c] bg-[#1a0f0a] text-sm">
               <a
                 href="https://example.com/webapps"
@@ -88,7 +96,7 @@ export default function PortfolioSection() {
                 rel="noopener noreferrer"
                 className="text-green-600 hover:underline flex items-center gap-1"
               >
-                View Project
+                Explore Project &rarr;
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-4 w-4"
@@ -108,28 +116,25 @@ export default function PortfolioSection() {
           </div>
         </div>
 
+        {/* Card 3 */}
         <div className="bg-[#231406] shadow-lg rounded-xl p-0 w-80 border border-[#6d4c2c] flex flex-col justify-between">
           <div>
             <div className="w-full h-64 rounded-t-xl overflow-hidden">
               <img
                 src="/huh.jpg"
-                alt="Scalable Software Development at Bouletteproof"
+                alt="Scalable Software Systems"
                 className="w-full h-full object-cover object-center"
               />
             </div>
             <div className="p-6">
-              <div className="text-3xl mb-2 font-serif">🔒</div>
+              <CardIcon />
               <div className="font-bold text-xl mb-2 text-[#e6cfa7] font-serif">
-                Scalable Software Development at Bouletteproof
+                Scalable Software Systems
               </div>
               <div className="text-[#c2a77c] mb-4 font-serif">
-                Contributed to the development of secure, scalable applications
-                by integrating features with TypeScript, Node.js, and GraphQL.
-                Improved backend API efficiency and database performance while
-                collaborating with cross-functional teams in an Agile
-                environment.
+                Optimized backend APIs and databases for scalable apps, boosting
+                performance and reliability.
               </div>
-
               <div className="flex items-center justify-between px-6 py-3 border-t border-[#6d4c2c] bg-[#1a0f0a] text-sm">
                 <a
                   href="https://example.com/bouletteproof"
@@ -137,7 +142,7 @@ export default function PortfolioSection() {
                   rel="noopener noreferrer"
                   className="text-green-600 hover:underline flex items-center gap-1"
                 >
-                  View Project
+                  Explore Project &rarr;
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-4 w-4"
